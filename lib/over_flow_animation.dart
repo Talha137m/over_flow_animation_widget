@@ -16,9 +16,9 @@ class OverFlowAnimation extends StatefulWidget {
     this.pauseDuration = const Duration(microseconds: 800),
     this.startCurve = Curves.linear,
     this.backCurve = Curves.bounceInOut,
-  });
-  //     : assert(animationDuration > Duration.zero),
-  // assert(backDuration > Duration.zero);
+  })
+      : assert(animationDuration > Duration.zero),
+  assert(backDuration > Duration.zero);
 
   @override
   State<OverFlowAnimation> createState() => _OverFlowAnimation();
